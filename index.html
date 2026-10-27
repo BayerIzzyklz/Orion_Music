@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orion Music</title>
+    <link class="img" rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Orion Music Player</h1>
+        
+        <div class="player">
+            <audio id="player" src="" controls></audio>
+            
+            <div class="player_controls">
+                <button class="player_button player_button-play">Play</button>
+                <button class="player_button player_button-pause">Pause</button>
+            </div>
+        </div>
+
+        <div class="progress_player">
+            <div class="player_progress-bar"></div>
+        </div>
+
+        <div id="music-info-panel" class="music-info-panel" style="display: none;">
+    <div class="panel-header">
+        <img id="panel-cover" src="" alt="Capa" class="panel-cover" style="max-width: 200px; border-radius: 8px;">
+        <h2 id="panel-title"></h2>
+    </div>
+    
+    <div class="panel-content">
+        <h3>Letra (Lyrics)</h3>
+        <p id="panel-lyrics" style="white-space: pre-line; max-height: 200px; overflow-y: auto;"></p>
+        
+        <h3>Sobre (About)</h3>
+        <p id="panel-about"></p>
+    </div>
+</div>
+
+        <ul class="playlist">
+
+            <li class="playlist_item">
+                 <a href="#" 
+                 data-song-id="505"
+                 data-src="songs/505_articmonkeys.mp3">505 - Arctic Monkeys</a>
+            </li>
+         
+            <li class="playlist_item">
+                 <a href="#" 
+                  data-song-id="505"
+                 data-src="songs/Wonderwall_oasis.mp3">Wonderwall - Oasis</a>
+            </li>
+
+            <li class="playlist_item">
+                 <a href="#" 
+                 data-song-id="seeyouagain"
+                 data-src="songs\seeyouagain_tylerthecreator.mp3">See You Again - Tyler, The Creator feat. Kali Uchis</a>
+            </li>
+
+            <li class="playlist_item">
+                 <a href="#"
+                 data-song-id="virtualinsanity"
+                 data-src="songs\Virtualinsanity_jamiqorai.mp3">Virtual Insanity - Jamiroquai</a>
+            </li>
+
+            <li class="playlist_item">
+                 <a href="#"
+                 data-song-id="Shouldvesaidit"
+                 data-src="songs\YTDown.com_YouTube_Should-ve-Said-It_Media_0Dc4BAKgq7I_009_128k.mp3">Should've Said It - Camila Cabello</a>
+            </li>
+
+            <li class="playlist_item">
+                 <a href="#"
+                 data-song-id="lunch"
+                 data-src="songs\YTDown.com_YouTube_Billie-Eilish-LUNCH-Official-Music-Video_Media_MB3VkzPdgLA_009_128k.mp3">LUNCH - Billie Eilish</a>
+            </li>
+
+            <li class="playlist_item">
+                 <a href="#"  
+                 data-song-id="havana"
+                 data-src="songs\YTDown.com_YouTube_Camila-Cabello-Havana-Lyrics-ft-Young-Th_Media_egtD5GfAh58_009_128k.mp3">Havana - Camila Cabello feat. Young Thug</a>
+            </li>
+
+            <li class="playlist_item">
+                 <a href="#" 
+                 data-song-id="notlikeus"
+                 data-src="songs\YTDown.com_YouTube_Not-Like-Us_Media_T6eK-2OQtew_009_128k.mp3">Not Like Us - Kendrick Lamar</a>
+            </li>
+
+            <li class="playlist_item">
+                 <a href="#" 
+                 data-song-id="505"
+                 data-src="songs/song2.m4a">Wonderwall - Oasis</a>
+            </li>
+
+            <li class="playlist_item">
+                 <a href="#" 
+                 data-song-id="505" 
+                 data-src="songs/song2.m4a">Wonderwall - Oasis</a>
+            </li>
+
+            <li class="playlist_item">
+                 <a href="#" 
+                  data-song-id="505"
+                  data-src="songs/song2.m4a">Wonderwall - Oasis</a>
+            </li>
+
+            <li class="playlist_item">
+                 <a href="#"
+                  data-song-id="505"
+                  data-src="songs/song2.m4a">Wonderwall - Oasis</a>
+            </li>
+      
+          </ul>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
